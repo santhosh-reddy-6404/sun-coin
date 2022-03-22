@@ -49,15 +49,6 @@ body {
   min-height: calc(100vh - 300px);
 }
 
-.page #err {
-  position: fixed;
-  top: 48%;
-  left: calc(50% - 100px);
-  color: #196E65;
-  font-family: 'Poppins', sans-serif;
-  font-size: 16px;
-}
-
 /* header */
 
 .header {
@@ -96,8 +87,8 @@ body {
 
 .login {
   position: absolute;
-  top: 10px;
-  right: 10px;
+  top: calc(50% - 40px);
+  right: calc(50% - 40px);
   font-size: 14px;
   text-align: center;
   background: darkorange;
