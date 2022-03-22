@@ -130,8 +130,6 @@ return (<div className="header">
 <span><a href={"https://ropsten.etherscan.io/token/"+sunAddr}>As bright as Sun in Ropsten</a>{' '+'🌅'}
 </span>
 
-{log?null:<button onClick={LogIn} className="login">Connect Wallet</button>}
-
 </div>)}
 
 //Home...
@@ -257,7 +255,7 @@ return (<div>
 </div>
 
 </div>
-:<p id="err">Please connect your wallet !</p>}
+:<button onClick={LogIn} className="login">Connect Wallet</button>}
 </div>
 
 <footer>
